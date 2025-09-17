@@ -7,7 +7,13 @@
     "dev": "NODE_ENV=development node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["slack", "clone", "chat", "realtime", "websocket"],
+  "keywords": [
+    "slack",
+    "clone",
+    "chat",
+    "realtime",
+    "websocket"
+  ],
   "author": "",
   "license": "ISC",
   "description": "A full-featured Slack clone backend with real-time messaging",
@@ -26,5 +32,10 @@
     "pg": "^8.16.3",
     "socket.io": "^4.8.1",
     "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "axios": "^1.12.2",
+    "form-data": "^4.0.4",
+    "socket.io-client": "^4.8.1"
   }
 }
